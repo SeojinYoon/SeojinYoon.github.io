@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Seojin Yoon"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "공부한 내용을 정리하는 블로그입니다."
+  bio    : "뇌과학, 심리학, 철학, 인공지능에 관심이 있습니다."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
