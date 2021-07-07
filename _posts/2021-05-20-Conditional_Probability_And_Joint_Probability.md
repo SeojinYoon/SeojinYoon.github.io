@@ -21,7 +21,7 @@ Y > X라는 관계를 가지는 식을 생각해보자.
 그림으로 표현하면 다음과 같다.
 초록색 영역은 Y > X 에 해당하는 영역이고 초록색과 노란색 영역이 합쳐져서 샘플 스페이스를 이룬다.
 
-![alt text]({{ "/assets/2021-05-20-결합확률과 조건부 확률/s1.png" | absolute_url }})
+![alt text]({{ "/assets/2021-05-20-Conditional_Probability_And_Joint_Probability/s1.png" | absolute_url }})
 
 반면 Y > X | Y  > x 의 경우를 생각해보자.
 이때 Y > X 는 Y > x라는 공간상에서 표현된다.
@@ -29,7 +29,7 @@ Y > X라는 관계를 가지는 식을 생각해보자.
 
 반면 조건부 확률은 샘플 스페이스가 초록색 영역이 되고 이 초록색 영역에서 Y가 표현된다.
 
-![alt text]({{ "/assets/2021-05-20-결합확률과 조건부 확률/s2.png" | absolute_url }})
+![alt text]({{ "/assets/2021-05-20-Conditional_Probability_And_Joint_Probability/s2.png" | absolute_url }})
 
 다시 말하면, Y > X 일때, P(Y > X) 는 1/2이 된다.
 P(Y > X | Y > X)는 1이 된다.

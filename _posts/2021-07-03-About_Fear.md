@@ -6,7 +6,7 @@ date: 2021-07-03T13:00:00
 
 공포는 인간의 기본 6가지 정서중에 하나이다.(기쁨, 슬픔, 분노, 혐오, 놀람, 공포)
 
-![alt text]({{ "/assets/2021-07-03-공포에 대하여/basic_emotion.png" | absolute_url }})
+![alt text]({{ "/assets/2021-07-03-About_Fear/basic_emotion.png" | absolute_url }})
 
 인간의 기본 정서 중 공포는 생존과 가장 직결되는 반응이다.
 인간은 뱀을 보았을때 본능적으로 도망가며 어둠을 무서워한다. 이러한 인간의 본능적인 반응을 카를 융은 집단 무의식이라고도 하였다.
@@ -26,13 +26,13 @@ date: 2021-07-03T13:00:00
 
 편도체가 손상된 그녀는 무리한 요구에도 제안을 받아들이는 경향을 보였으나, 그녀와 비슷한 수준을 가진 다른 피험자들은 그 제안에 대한 위험을 감지하고 응하지 않았다.
 
-![alt text]({{ "/assets/2021-07-03-공포에 대하여/sm_coin.png" | absolute_url }})
+![alt text]({{ "/assets/2021-07-03-About_Fear/sm_coin.png" | absolute_url }})
 
 2. Personal space 실험
 불편함을 느끼지 않을 정도의 사람과 사람간의 거리를 Personal space라고 한다.
 이전 실험과 마찬가지로 그녀와 그녀와 비슷한 수준의 그룹을 대상으로 실험을 하였는데, 그녀는 아주 가까운 경우에도 불편함을 느끼지 않았다고 한다.
 
-![alt text]({{ "/assets/2021-07-03-공포에 대하여/sm_personal_space.png" | absolute_url }})
+![alt text]({{ "/assets/2021-07-03-About_Fear/sm_personal_space.png" | absolute_url }})
 
 위의 연구를 통해 알수 있는 바는 편도체가 약화되어 있는 사람은 위험을 감수하는 경향이 크며, 덜 경계하는 경향이 있다는 것이다.
 
