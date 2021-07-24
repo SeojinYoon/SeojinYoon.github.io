@@ -56,10 +56,7 @@ A(r2 = 0) -> 1, B(r2 = 0) -> 0
 위의 조건이 만족되면, A와 B는 Double dissociation 하다.
 
 ## 조건부 확률을 통한 Double Dissociation의 이해
-위 식을 확률로 표현하면 이렇게 정리될 수 있을 것이다.
-
-P(A|B(r2 = 0)) = P(A)
-P(B|A(r1 = 0)) = P(B)
+위 식을 확률로 표현하면 이렇게 정리될 수 있을 것이다. P(A|B(r2 = 0)) = P(A), P(B|A(r1 = 0)) = P(B)
 
 # 정리
 지금까지 Dissociation에 대한 개념 및 Double dissociation이 왜 필요한지에 대하여 설명하였다.
