@@ -9,8 +9,10 @@ Single dissociation이 무엇인지, Double dissociation이 무엇인지 대강 
 이러한 혼란의 이유는 Dissociation이 가진 두 뇌 기능들의 독립이라는 simple한 정의에 brain region이라는 차원이 추가되었기 때문인데, 오늘은 내가 가진 이 의문을 정리하여 포스팅을 해보려고 한다.
 
 # Dissociation의 정의
-신경심리학(Neuropsychology)에서 말하는 Dissociation이란 두가지의 뇌의 기능이 서로 분리되어 있음을 말한다.
+뇌공학에서 말하는 Dissociation이란 두가지의 뇌의 기능이 서로 분리되어 있음을 말한다.
 여기서 말하는 분리란 한쪽 기능이 망가져도 다른 쪽 기능은 살아있어야 한다는 것이다.
+그런데 여기에 더해, brain region에 대한 뇌 기능의 독립을 말한다.
+brain region을 더하는 이유는 아마 하나의 brain region이 하나의 brain function을 담당한다고 설명하고자 하는 뇌공학의 욕구 때문인 것 같다.
 
 ## Single Dissociation이란?
 Single dissociation은 아주 단순하다. 하나의 뇌 기능을 망가뜨렸을때, 다른 기능이 살아있으면 두 기능은 서로 독립임이 증명된 것이다.
@@ -59,8 +61,13 @@ B(r2 = 0) -> 0
 ## 조건부 확률을 통한 Double Dissociation의 이해
 위 식을 확률로 표현하면 이렇게 정리될 수 있을 것이다.
 
-P(A | B(r2 = 0) ) = P(A)
-P(B | A(r1 = 0) ) = P(B)
+P(A|B(r2 = 0)) = P(A)
+P(B|A(r1 = 0)) = P(B)
+
+## 정리
+지금까지 Dissociation에 대한 개념 및 Double dissociation이 왜 필요한지에 대하여 설명하였다.
+결론적으로 뇌공학은 하나의 brain region을 하나의 brain function과 매핑시키고자 하고 싶어하기 때문에 Dissociation 함을 밝히려 한다. 그리고 하나의 기능만 망가뜨려서 독립을 확인하는 것이 부족하기 때문에 다른 기능도 망가뜨려서 기능의 독립임을 확인하고자 하는 것이다.
+
 
 
 
