@@ -10,7 +10,9 @@ date: 2021-12-12T14:22:00
 
 어떤 Event를 Probability로 mapping하는 function이다. 
 
-- <img src="https://latex.codecogs.com/gif.latex?O_t=\text { P(Event) = Probability } t " /> 
+```math
+P(Event) = Probability
+```
 
 # Event란 무엇인가?
 
@@ -25,7 +27,9 @@ Event를 잘 정의하기 위해서는 Event에 기반이 되는 표본공간을
 
 확률 분포란 표본공간에서 모든 가능한 값을 각각 확률로 사상하는 확률 함수이다. 예를 들어 동전을 던졌다고 했을 때, 동전이 가질 수 있는 가능한 상태는 앞면 혹은 뒷면이다. 확률 분포는 앞면이 나올 확률과 뒷면이 나올 확률을 mapping한다.
 
-- <img src="https://latex.codecogs.com/gif.latex?O_t=\text { P(Ω) = list of probability } t " />
+```math
+P(Ω) = list of probability
+```
 
 앞서 확률함수가 확률을 잘 계산하게 하기 위해서 Event space를 잘 정의해야하고 확률함수는 Event를 확률로 사상한다고 하였는데, 확률 분포는 Event space 자체를 확률들로 사상시킨다.
 
@@ -36,7 +40,9 @@ Event를 잘 정의하기 위해서는 Event에 기반이 되는 표본공간을
 
 예를 들어 후보 A, B가 있을 때 어느 후보가 대통령이 될 것인지를 확률분포로 해석한다면 확률 분포를 통해 A라는 후보가 대통령이 될 확률 그리고 B라는 후보가 대통령이 될 확률을 표현할 수 있을 것이다. 이를 잘 설명하는 확률분포는 베르누이 분포라고 가정하여 현상을 설명할 수 있고, 베르누이 분포의 파라미터를 여론조사를 근거로 결정하여 후보 A와 B가 어느정도의 확률로 대통령이 될 수 있는지 표현할 수도 있고, 느낌을 근거로 확률을 표현할 수도 있을 것이다.  
 
-- <img src="https://latex.codecogs.com/gif.latex?O_t=\text { P(A와 B가 대통령이 될 확률) = p(1-p)^{1-x} } t" />
+```math
+P(A와 B가 대통령이 될 확률) = p(1-p)^{1-x}
+```
 
 위 식에서 x는 0 혹은 1을 가질 수 있고 p는 후보 A가 대통령이 될 확률 1-p는 후보 B가 대통령이 될 확률을 나타낸다.
 
