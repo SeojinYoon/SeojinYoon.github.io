@@ -13,6 +13,13 @@ x를 어떤 데이터라고 하고 θ를 통계적인 모델링을 하기 위한
 Likelihood = L(θ; x) = P(x | θ)
 ```
 
+{% raw %}
+$$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
+{% endraw %}
+
+<img src="https://render.githubusercontent.com/render/math?math=x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}">
+
+
 위의 식처럼 θ에 대한 Likelihood는 θ를 주어졌을 때 x가 나타날 Conditional probability를 통해 구해질 수 있으며 이러한 관계가 등호로 표현되지만 이 둘은 서로 다른 개념이다.
 
 이를 개략적으로 설명하면, x에 대한 conditional probability는 Domain이 x인 반면 θ에 대한 Likelihood는 Domain이 θ이기 때문이다.
@@ -25,7 +32,7 @@ x = {x1, x2, x3}
 
 Likelihood, L(θ; x)는 특정한 x를 가정했을 때, θ의 값이 관측되면 그 θ를 특정한 값으로 사상시키는 함수이므로 다음과 같이 Likelihood 함수의 분포는 L(θ1; x1) 와 L(θ2; x1) 으로 나타낼 수 있다.
 
-반면 P(x|θ)는 특정한 θ를 가정하고 x를 Domain으로 바라보기 때문에 다음과 같이 Conditional Probability 함수값의 분포를 나타낼 수 있다. (P(x1 | θ1), P(x2 | θ1), P(x3 | θ1)) 
+반면 P(x|θ)는 특정한 θ를 가정하고 x를 Domain으로 바라보기 때문에 다음과 같이 Conditional Probability 함수값의 분포를 나타낼 수 있다. ex) P(x1 | θ1), P(x2 | θ1), P(x3 | θ1)
 
 정리하자면 어떤 symbol을 Domain으로 놓느냐에 따라서 Likelihood 인지 혹은 Conditional Probability인지가 결정된다.
 
@@ -252,7 +259,7 @@ Posterior와 Likelihood 모두 Domain를 θ로 바라보지만, Posterior functi
 
 ![alt text]({{ "/assets/2021-12-28-Diffrence_between_likelihood_and_others/L_Posterior.png" | absolute_url }})
 
-```math
+```python
 target_x = 5
 
 plt.plot(all_θ, p_θ_givenX(θ=all_θ, n=n, x=target_x, all_θ=all_θ, prior=p_θ))
