@@ -25,7 +25,7 @@ x = {x1, x2, x3}
 
 Likelihood, L(θ; x)는 특정한 x를 가정했을 때, θ의 값이 관측되면 그 θ를 특정한 값으로 사상시키는 함수이므로 다음과 같이 Likelihood 함수의 분포는 L(θ1; x1) 와 L(θ2; x1) 으로 나타낼 수 있다.  
 
-반면 <img src="https://render.githubusercontent.com/render/math?math=P(x|θ)">는 특정한 θ를 가정하고 x를 Domain으로 바라보기 때문에 다음과 같이 Conditional Probability 함수값의 분포를 나타낼 수 있다. ex) <img src="https://render.githubusercontent.com/render/math?math=P(x1|θ1)">, <img src="https://render.githubusercontent.com/render/math?math=P(x2|θ1)">, <img src="https://render.githubusercontent.com/render/math?math=P(x3|θ1)">
+반면 <img src="https://render.githubusercontent.com/render/math?math=P(x\mid\theta)">는 특정한 θ를 가정하고 x를 Domain으로 바라보기 때문에 다음과 같이 Conditional Probability 함수값의 분포를 나타낼 수 있다. ex) <img src="https://render.githubusercontent.com/render/math?math=P(x1\mid\theta1)">, <img src="https://render.githubusercontent.com/render/math?math=P(x2\mid\theta1)">, <img src="https://render.githubusercontent.com/render/math?math=P(x3\mid\theta1)">
 
 
 
@@ -238,7 +238,7 @@ Posterior와 Likelihood는 모두 θ를 Domain으로 바라보기 때문에 혼�
 
 Posterior의 경우 다음과 같은 식으로 값을 구한다.
 
-<img src="https://render.githubusercontent.com/render/math?math=\frac{P(x|θ)P(θ)}{\sum_{Θ}P(x|θ)P(θ)})">
+<img src="https://render.githubusercontent.com/render/math?math=\frac{P(x\mid\theta)P(\theta)}{\sum_{\theta}P(x\mid\theta)P(\theta)})">
 
 반면 Likelihood를 구하는 식은 다음과 같다.  
 
