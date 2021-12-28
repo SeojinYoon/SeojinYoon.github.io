@@ -23,9 +23,9 @@ x와 θ는 다음과 같은 집합을 표현하기 위한 symbol이라고 하자
 θ = {θ1, θ2}  
 x = {x1, x2, x3}  
 
-Likelihood, L(θ; x)는 특정한 x를 가정했을 때, θ의 값이 관측되면 그 θ를 특정한 값으로 사상시키는 함수이므로 다음과 같이 Likelihood 함수의 분포는 L(θ1; x1) 와 L(θ2; x1) 으로 나타낼 수 있다.
+Likelihood, L(θ; x)는 특정한 x를 가정했을 때, θ의 값이 관측되면 그 θ를 특정한 값으로 사상시키는 함수이므로 다음과 같이 Likelihood 함수의 분포는 L(θ1; x1) 와 L(θ2; x1) 으로 나타낼 수 있다.  
 
-반면 P(x|θ)는 특정한 θ를 가정하고 x를 Domain으로 바라보기 때문에 다음과 같이 Conditional Probability 함수값의 분포를 나타낼 수 있다. ex) P(x1 | θ1), P(x2 | θ1), P(x3 | θ1)
+반면 P(x\|θ)는 특정한 θ를 가정하고 x를 Domain으로 바라보기 때문에 다음과 같이 Conditional Probability 함수값의 분포를 나타낼 수 있다. ex) P(x1 \| θ1), P(x2 \| θ1), P(x3 \| θ1)
 
 정리하자면 어떤 symbol을 Domain으로 놓느냐에 따라서 Likelihood 인지 혹은 Conditional Probability인지가 결정된다.
 
