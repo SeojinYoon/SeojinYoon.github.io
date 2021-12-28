@@ -238,7 +238,7 @@ Posterior와 Likelihood는 모두 θ를 Domain으로 바라보기 때문에 혼�
 
 Posterior의 경우 다음과 같은 식으로 값을 구한다.
 
-<pre xml:lang="latex">\frac{P(x|θ)P(θ)}{\sum_{Θ} P(x|θ)P(θ)</pre>
+<img src="https://render.githubusercontent.com/render/math?math=\frac{P(x|θ)P(θ)}{\sum_{Θ}P(x|θ)P(θ)})">
 
 반면 Likelihood를 구하는 식은 다음과 같다.  
 
