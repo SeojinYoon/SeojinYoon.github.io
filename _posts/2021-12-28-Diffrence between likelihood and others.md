@@ -270,9 +270,9 @@ print("likelihood: ", sum(p_x_givenθ(x = target_x, n=n, θ=all_θ)), "Posterior
 
 # 정리
 
-Likelihood와 Conditional Probability는 같은 식이지만 어떤 대상을 Domain으로 고려했는지가 다르다.
+Likelihood와 Conditional Probability의 다른점은 Domain의 대상이다.
 
-Likelihood와 Posterior는 같은 대상을 domain으로 고려했지만, Posterior를 구할때의 function은 확률 공리를 만족시키는 함수이며 Likelihood는 그렇지않다.
+Likelihood와 Posterior는 같은 대상을 domain으로 고려하지만, Posterior를 구할때의 function은 확률 공리를 만족시키는 함수인 반면 Likelihood는 그렇지않다.
 
 
 
