@@ -103,7 +103,7 @@ plt.xlabel("θ")
 
 ![alt text]({{ "/assets/2021-12-28-Diffrence_between_likelihood_and_others/L.png" | absolute_url }})
 
-위 두 소스 코드 모두 p_x_givenθ라는 함수를 사용하여 분포를 표현하지만, x를 Domainㅇ로 할지 혹은 θ를 Domain으로 할지에 따라 분포의 형태가 달라졌다.  
+위 두 소스 코드 모두 p_x_givenθ라는 함수를 사용하여 분포를 표현하지만, x를 Domain으로 할지 혹은 θ를 Domain으로 할지에 따라 분포의 형태가 달라졌다.  
 이것이 Likelihood와 Conditional probability간의 차이이다.
 
 ## Understanding with Python(3d)
@@ -236,9 +236,7 @@ Posterior와 Likelihood는 모두 θ를 Domain으로 바라보기 때문에 혼�
 
 Posterior의 경우 다음과 같은 식으로 값을 구한다.
 
-\begin{equation*}
-\frac{P(x|θ)P(θ)}{\sum_{Θ} P(x|θ)P(θ)
-\end{equation*}
+<pre xml:lang="latex">\frac{P(x|θ)P(θ)}{\sum_{Θ} P(x|θ)P(θ)</pre>
 
 반면 Likelihood를 구하는 식은 다음과 같다.  
 
