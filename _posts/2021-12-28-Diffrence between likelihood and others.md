@@ -9,15 +9,7 @@ date: 2021-12-26T13:14:00
 
 x를 어떤 데이터라고 하고 θ를 통계적인 모델링을 하기 위한 어떤 파라미터라고 할 때, Likelihood 다음과 같은 식으로 표현된다.
 
-```math
-Likelihood = L(θ; x) = P(x | θ)
-```
-
-{% raw %}
-$$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
-{% endraw %}
-
-<img src="https://render.githubusercontent.com/render/math?math=x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}">
+<img src="https://render.githubusercontent.com/render/math?math=Likelihood = L(θ; x) = P(x | θ)">
 
 
 위의 식처럼 θ에 대한 Likelihood는 θ를 주어졌을 때 x가 나타날 Conditional probability를 통해 구해질 수 있으며 이러한 관계가 등호로 표현되지만 이 둘은 서로 다른 개념이다.
@@ -242,14 +234,11 @@ Posterior와 Likelihood는 모두 θ를 Domain으로 바라보기 때문에 혼�
 
 Posterior의 경우 다음과 같은 식으로 값을 구한다.
 
-```math
-P(θ|x) = \frac{P(x|θ)P(θ)}{\sum_{Θ} P(x|θ)P(θ)}
-```
+<img src="https://render.githubusercontent.com/render/math?math=P(θ|x) = \frac{P(x|θ)P(θ)}{\sum_{Θ} P(x|θ)P(θ)">
 
 반면 Likelihood를 구하는 식은 다음과 같다.  
-```math
-L(θ;x) = P(x|θ)
-```
+
+<img src="https://render.githubusercontent.com/render/math?math=L(θ;x) = P(x|θ))">
 
 Posterior와 Likelihood 모두 Domain를 θ로 바라보지만, Posterior function은 확률 공리를 만족시키는 함수인 반면, Likelihood function은 Conditional probability에서 확률 공리를 만족시키는 x를 domain으로 보는 함수가 아닌 θ를 Domain으로 바라보기 때문에 확률 공리를 만족시키지 못한다.
 
