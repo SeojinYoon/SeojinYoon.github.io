@@ -1,13 +1,9 @@
 ---
-title: "해마체 연구-2, Searchlight"
+title: "해마체 연구-3, Searchlight"
 date: 2022-01-19T19:18:00
 ---
 
 이번 글은 제가 가지고 있는 운동학습에 대한 가설과 그 분석방법에 대해서 써보고자 합니다.
-
-# GLM Study
-
-GLM은 fMRI study에서 기본적으로 사용하는 연구 방법입니다. GLM은 Generalized Linear Model의 약자인데요, fMRI Study에서 brain activity를 반응 변수로 놓고 어떠한 자극을 주었는지를 설명 변수로 놓아서 그 설명변수가 response variable을 얼마나 잘 설명하는지 파악하는 방법입니다. 제 연구에서는 여러가지 Sequence(숫자의 나열)을 자극으로 주었기 때문에 그 숫자의 나열을 설명 변수로 사용하였습니다. 이런 방식을 통해서 Sequence가 brain activity에 얼마나 영향을 미치는지 알 수 있죠. GLM을 통해 설명 변수가 반응 변수를 얼마나 잘 설명하는지의 정도를 얻을 수 있습니다. 이를 beta 값이라고 합니다. 
 
 ## Searchlight study in Move
 
