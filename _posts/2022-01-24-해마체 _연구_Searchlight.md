@@ -1,5 +1,5 @@
 ---
-title: "해마체 연구-3, Searchlight"
+title: "해마체 연구, Searchlight"
 date: 2022-01-19T19:18:00
 ---
 
