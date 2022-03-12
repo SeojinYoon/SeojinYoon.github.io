@@ -16,7 +16,7 @@ date: 2022-01-20T19:18:00
 저의 실험 디자인도 이 논문을 기반으로 하였습니다. 피험자가 Motor sequence task를 하게 하였고 중간 중간에 쉬는 시간을 배치하였습니다. 
 하나의 Trial은 Sequence를 수행하는 시간 10초와 쉬는 시간 20초로 구성하였습니다. 앞서의 논문과는 달리시퀀스를 총 4개 이용하였는데 그 이유는 decoding을 주요한 분석 기법으로 사용하고자 하였기 때문입니다. 또한 이는 Motor sequence learning을 늦추는 효과를 가지고 있습니다.
 
-Decoding 분석을 주요한 기법으로 사용하고자 하였기 때문에, 최대한 많은 데이터가 필요하였습니다. 한개의 Run당 24개의 Trial을 구성하였으며, 같은 Sequence의 반복횟수는 6으로 설정하였습니다. 그리고 피험자가 어떤 시퀀스를 할지 예측하는 효과를 방지하기 위해 Pseudo-random하게 시퀀스를 배치하였습니다. 가운데 그림에 맨 위에 표현된 6초의 빨간색 선은 6초 동안에 얻은 fMRI 데이터를 날리기 위해 삽입하였습니다. 그 이유는 혹시라도 있을 Run 시작 시점의 effect를 제거하기 위함입니다.
+Decoding 분석을 주요한 기법으로 사용하고자 하였기 때문에, 최대한 많은 데이터가 필요하였습니다. 한개의 Run당 24개의 Trial을 구성하였으며, 같은 Sequence의 반복횟수는 6으로 설정하였습니다. 그리고 피험자가 어떤 시퀀스를 할지 예측하는 효과를 방지하기 위해 Pseudo-random하게 시퀀스를 배치하였습니다.(이는 Working memory로 인하여 performance에 영향을 미치는 것을 방지하기 위함입니다.) 가운데 그림에 맨 위에 표현된 6초의 빨간색 선은 6초 동안에 얻은 fMRI 데이터를 날리기 위해 삽입하였습니다. 그 이유는 혹시라도 있을 Run 시작 시점의 effect를 제거하기 위함입니다.
 
 ![alt text]({{ "/assets/2022-01-20-behaviour/exp_design.png" | absolute_url }})
 
@@ -61,3 +61,5 @@ iteration간의 intertap interval의 차이가 크지 않은 것을 볼 수 있�
 # 문제점
 
 현재 이 실험의 문제점은 Motor Sequence learning이 너무 빨리 일어나 sequence가 반복될 수록 performance가 개선되는 효과가 미미하다는 것입니다. 이로 인해 performance 개선의 효과를 brain의 activity 상태와 어떻게 연결시킬지 잘 모르겠네요.
+
+
