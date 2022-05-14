@@ -1,5 +1,5 @@
 ---
-title: "Hippocampus fomration"
+title: "해마체 연구, Hippocampus fomration"
 date: 2022-05-14T13:10:00
 ---
 
